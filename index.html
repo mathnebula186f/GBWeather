@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBWeather Report</title>
+</head>
+<body>
+    <h1>HI! Welcome to GB Weather Report</h1>
+    <h2>Type the City name that you want to find the weather report</h2>
+    <div class="temp_form">
+        <form action="/GBWeather" method="post">
+            <input type="text" name="city" placeholder="City Name">
+    </div>
+    <h2>Choose the units in which you want temperature</h2>
+    <div class="units">
+    <input type="radio" name="unit" value="celcius">
+    <label for="tempChoice1">Celcius</label>
+    <input type="radio" name="unit" value="farenheit">
+    <label for="tempChoice2">Farenheit</label>
+    <input type="radio" name="unit" value="kelvin">
+    <label for="tempChoice3">Kelvin</label>
+    <div>
+        <button type="submit" name="submit">Share Report</button>
+    </div>
+    
+    </form>
+    
+    </div>
+</body>
+</html>
